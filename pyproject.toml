@@ -10,6 +10,8 @@ requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
 
+[project.scripts]
+tot_plus='tot_plus.plus:plus'
 
 [tool.pdm]
 distribution = true
