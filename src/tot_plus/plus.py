@@ -1,4 +1,6 @@
+import sys
+
 def plus():
-    a=1
-    b=2
-    print(a, '+', b, '=', a+b)
+    a=int(sys.argv[1])
+    b=int(sys.argv[2])
+    print(f"{a}+{b}={a+b}")
